@@ -118,7 +118,7 @@
          this.listBoxFont = new System.Windows.Forms.ListBox();
          this.pictureBoxCustomColor1 = new System.Windows.Forms.PictureBox();
          this.menuStripMain = new System.Windows.Forms.MenuStrip();
-         this.dateiToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+         this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
          this.ToolStripMenuItemNew = new System.Windows.Forms.ToolStripMenuItem();
          this.ToolStripMenuItemOpen = new System.Windows.Forms.ToolStripMenuItem();
          this.ToolStripMenuItemLastFiles = new System.Windows.Forms.ToolStripMenuItem();
@@ -136,7 +136,7 @@
          this.extrasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
          this.ToolStripMenuItemExtraLanguage = new System.Windows.Forms.ToolStripMenuItem();
          this.ToolStripMenuItemExtraGarmincolor = new System.Windows.Forms.ToolStripMenuItem();
-         this.hilfeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+         this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
          this.ToolStripMenuItemInfo = new System.Windows.Forms.ToolStripMenuItem();
          this.toolStrip1 = new System.Windows.Forms.ToolStrip();
          this.toolStripButtonSave = new System.Windows.Forms.ToolStripButton();
@@ -1204,10 +1204,10 @@
          // 
          this.menuStripMain.Dock = System.Windows.Forms.DockStyle.None;
          this.menuStripMain.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.dateiToolStripMenuItem,
+            this.fileToolStripMenuItem,
             this.toolStripMenuItem1,
             this.extrasToolStripMenuItem,
-            this.hilfeToolStripMenuItem});
+            this.helpToolStripMenuItem});
          this.menuStripMain.Location = new System.Drawing.Point(0, 0);
          this.menuStripMain.Name = "menuStripMain";
          this.menuStripMain.Size = new System.Drawing.Size(787, 24);
@@ -1217,7 +1217,7 @@
          // 
          // dateiToolStripMenuItem
          // 
-         this.dateiToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+         this.fileToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.ToolStripMenuItemNew,
             this.ToolStripMenuItemOpen,
             this.ToolStripMenuItemLastFiles,
@@ -1226,9 +1226,9 @@
             this.ToolStripMenuItemSave2,
             this.toolStripSeparator2,
             this.ToolStripMenuItemClose});
-         this.dateiToolStripMenuItem.Name = "dateiToolStripMenuItem";
-         this.dateiToolStripMenuItem.Size = new System.Drawing.Size(46, 20);
-         this.dateiToolStripMenuItem.Text = "&Datei";
+         this.fileToolStripMenuItem.Name = "dateiToolStripMenuItem";
+         this.fileToolStripMenuItem.Size = new System.Drawing.Size(46, 20);
+         this.fileToolStripMenuItem.Text = "&File";
          // 
          // ToolStripMenuItemNew
          // 
@@ -1314,14 +1314,14 @@
          // 
          this.ToolStripMenuItemLarge.Name = "ToolStripMenuItemLarge";
          this.ToolStripMenuItemLarge.Size = new System.Drawing.Size(122, 22);
-         this.ToolStripMenuItemLarge.Text = "Bild groß";
+         this.ToolStripMenuItemLarge.Text = "Large image";
          this.ToolStripMenuItemLarge.Click += new System.EventHandler(this.ToolStripMenuItemLarge_Click);
          // 
          // ToolStripMenuItemSmall
          // 
          this.ToolStripMenuItemSmall.Name = "ToolStripMenuItemSmall";
          this.ToolStripMenuItemSmall.Size = new System.Drawing.Size(122, 22);
-         this.ToolStripMenuItemSmall.Text = "Bild klein";
+         this.ToolStripMenuItemSmall.Text = "Small image";
          this.ToolStripMenuItemSmall.Click += new System.EventHandler(this.ToolStripMenuItemSmall_Click);
          // 
          // ToolStripMenuItemList
@@ -1364,11 +1364,11 @@
          // 
          // hilfeToolStripMenuItem
          // 
-         this.hilfeToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+         this.helpToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.ToolStripMenuItemInfo});
-         this.hilfeToolStripMenuItem.Name = "hilfeToolStripMenuItem";
-         this.hilfeToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
-         this.hilfeToolStripMenuItem.Text = "&Hilfe";
+         this.helpToolStripMenuItem.Name = "hilfeToolStripMenuItem";
+         this.helpToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
+         this.helpToolStripMenuItem.Text = "&Help";
          // 
          // ToolStripMenuItemInfo
          // 
@@ -1585,7 +1585,7 @@
 
       private System.Windows.Forms.ToolStripContainer toolStripContainer1;
       private System.Windows.Forms.MenuStrip menuStripMain;
-      private System.Windows.Forms.ToolStripMenuItem dateiToolStripMenuItem;
+      private System.Windows.Forms.ToolStripMenuItem fileToolStripMenuItem;
       private System.Windows.Forms.ToolStripMenuItem ToolStripMenuItemNew;
       private System.Windows.Forms.ToolStripMenuItem ToolStripMenuItemOpen;
       private System.Windows.Forms.ToolStripSeparator toolStripSeparator;
@@ -1593,7 +1593,7 @@
       private System.Windows.Forms.ToolStripMenuItem ToolStripMenuItemSave2;
       private System.Windows.Forms.ToolStripMenuItem ToolStripMenuItemClose;
       private System.Windows.Forms.ToolStripMenuItem extrasToolStripMenuItem;
-      private System.Windows.Forms.ToolStripMenuItem hilfeToolStripMenuItem;
+      private System.Windows.Forms.ToolStripMenuItem helpToolStripMenuItem;
       private System.Windows.Forms.ToolStripMenuItem ToolStripMenuItemInfo;
       private System.Windows.Forms.TabControl tabControl1;
       private System.Windows.Forms.TabPage tabPageArea;

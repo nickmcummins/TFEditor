@@ -61,7 +61,7 @@ namespace TFEditor {
       /// <summary>
       /// bevorzugte, d.h. angezeigte Sprache
       /// </summary>
-      Text.LanguageCode PreferredLanguage = GarminCore.Files.Typ.Text.LanguageCode.german;
+      Text.LanguageCode PreferredLanguage = GarminCore.Files.Typ.Text.LanguageCode.english;
 
       /// <summary>
       /// Breite des kleinen Listenbildes in den Listviews

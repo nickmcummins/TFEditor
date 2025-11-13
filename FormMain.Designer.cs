@@ -1,4 +1,6 @@
-﻿namespace TFEditor {
+﻿using TFEditor.Properties;
+
+namespace TFEditor {
    partial class FormMain {
       /// <summary>
       /// Erforderliche Designervariable.
@@ -1228,7 +1230,7 @@
             this.ToolStripMenuItemClose});
          this.fileToolStripMenuItem.Name = "dateiToolStripMenuItem";
          this.fileToolStripMenuItem.Size = new System.Drawing.Size(46, 20);
-         this.fileToolStripMenuItem.Text = "&File";
+         this.fileToolStripMenuItem.Text = $"&{LocalizedStrings.FileMenuItemText}";
          // 
          // ToolStripMenuItemNew
          // 
@@ -1314,14 +1316,14 @@
          // 
          this.ToolStripMenuItemLarge.Name = "ToolStripMenuItemLarge";
          this.ToolStripMenuItemLarge.Size = new System.Drawing.Size(122, 22);
-         this.ToolStripMenuItemLarge.Text = "Large image";
+         this.ToolStripMenuItemLarge.Text = LocalizedStrings.LargeImageMenuItemText;
          this.ToolStripMenuItemLarge.Click += new System.EventHandler(this.ToolStripMenuItemLarge_Click);
          // 
          // ToolStripMenuItemSmall
          // 
          this.ToolStripMenuItemSmall.Name = "ToolStripMenuItemSmall";
          this.ToolStripMenuItemSmall.Size = new System.Drawing.Size(122, 22);
-         this.ToolStripMenuItemSmall.Text = "Small image";
+         this.ToolStripMenuItemSmall.Text = LocalizedStrings.SmallImageMenuItemText;
          this.ToolStripMenuItemSmall.Click += new System.EventHandler(this.ToolStripMenuItemSmall_Click);
          // 
          // ToolStripMenuItemList
@@ -1368,7 +1370,7 @@
             this.ToolStripMenuItemInfo});
          this.helpToolStripMenuItem.Name = "hilfeToolStripMenuItem";
          this.helpToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
-         this.helpToolStripMenuItem.Text = "&Help";
+         this.helpToolStripMenuItem.Text = $"&{LocalizedStrings.HelpMenuText}";
          // 
          // ToolStripMenuItemInfo
          // 

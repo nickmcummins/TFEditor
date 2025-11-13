@@ -61,6 +61,69 @@ namespace TFEditor.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Open.
+        /// </summary>
+        internal static string ButtonOpenText {
+            get {
+                return ResourceManager.GetString("ButtonOpenText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Save.
+        /// </summary>
+        internal static string ButtonSaveText {
+            get {
+                return ResourceManager.GetString("ButtonSaveText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Language.
+        /// </summary>
+        internal static string Column1HeaderText {
+            get {
+                return ResourceManager.GetString("Column1HeaderText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Line width.
+        /// </summary>
+        internal static string ColumnHeader8Text {
+            get {
+                return ResourceManager.GetString("ColumnHeader8Text", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Width/Height.
+        /// </summary>
+        internal static string ColumnHeader9Text {
+            get {
+                return ResourceManager.GetString("ColumnHeader9Text", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Save TYP file.
+        /// </summary>
+        internal static string FileDialogSaveTitleText {
+            get {
+                return ResourceManager.GetString("FileDialogSaveTitleText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to TYP files (*.typ)|*.typ|All files|*.*.
+        /// </summary>
+        internal static string FileDialogTypFileFilterText {
+            get {
+                return ResourceManager.GetString("FileDialogTypFileFilterText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to File.
         /// </summary>
         internal static string FileMenuItemText {
@@ -70,11 +133,47 @@ namespace TFEditor.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Help.
+        ///   Looks up a localized string similar to &amp;Help.
         /// </summary>
         internal static string HelpMenuText {
             get {
                 return ResourceManager.GetString("HelpMenuText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Font color.
+        /// </summary>
+        internal static string LabelFontColorText {
+            get {
+                return ResourceManager.GetString("LabelFontColorText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Font.
+        /// </summary>
+        internal static string LabelFontText {
+            get {
+                return ResourceManager.GetString("LabelFontText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Line width: ?.
+        /// </summary>
+        internal static string LabelLineWithText {
+            get {
+                return ResourceManager.GetString("LabelLineWithText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Night.
+        /// </summary>
+        internal static string LabelsNightText {
+            get {
+                return ResourceManager.GetString("LabelsNightText", resourceCulture);
             }
         }
         
@@ -88,11 +187,227 @@ namespace TFEditor.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Adjust text flow to line.
+        /// </summary>
+        internal static string LineTextRotationCheckBoxItemText {
+            get {
+                return ResourceManager.GetString("LineTextRotationCheckBoxItemText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Margin width.
+        /// </summary>
+        internal static string MarginWidthLabelText {
+            get {
+                return ResourceManager.GetString("MarginWidthLabelText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &amp;Set color 1.
+        /// </summary>
+        internal static string MenuItemAreaColor1Text {
+            get {
+                return ResourceManager.GetString("MenuItemAreaColor1Text", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &amp;Set color 2.
+        /// </summary>
+        internal static string MenuItemAreaColor2Text {
+            get {
+                return ResourceManager.GetString("MenuItemAreaColor2Text", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &amp;Finish.
+        /// </summary>
+        internal static string MenuItemCloseText {
+            get {
+                return ResourceManager.GetString("MenuItemCloseText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Change element &amp;TYP.
+        /// </summary>
+        internal static string MenuItemElementChangeTypText {
+            get {
+                return ResourceManager.GetString("MenuItemElementChangeTypText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Copy element.
+        /// </summary>
+        internal static string MenuItemElementCopyToText {
+            get {
+                return ResourceManager.GetString("MenuItemElementCopyToText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Delete &amp;element.
+        /// </summary>
+        internal static string MenuItemElementDeleteText {
+            get {
+                return ResourceManager.GetString("MenuItemElementDeleteText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &amp;Save all element images.
+        /// </summary>
+        internal static string MenuItemElementSaveAllPicturesText {
+            get {
+                return ResourceManager.GetString("MenuItemElementSaveAllPicturesText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Use only Garmin colors for POIs.
+        /// </summary>
+        internal static string MenuItemExtraGarminColorText {
+            get {
+                return ResourceManager.GetString("MenuItemExtraGarminColorText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Displayed language.
+        /// </summary>
+        internal static string MenuItemExtraLanguageText {
+            get {
+                return ResourceManager.GetString("MenuItemExtraLanguageText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Recently opened files.
+        /// </summary>
+        internal static string MenuItemLastFilesText {
+            get {
+                return ResourceManager.GetString("MenuItemLastFilesText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to List.
+        /// </summary>
+        internal static string MenuItemListText {
+            get {
+                return ResourceManager.GetString("MenuItemListText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &amp;Add new element.
+        /// </summary>
+        internal static string MenuItemNewElementText {
+            get {
+                return ResourceManager.GetString("MenuItemNewElementText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &amp;New.
+        /// </summary>
+        internal static string MenuItemNewText {
+            get {
+                return ResourceManager.GetString("MenuItemNewText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &amp;Open.
+        /// </summary>
+        internal static string MenuItemOpenText {
+            get {
+                return ResourceManager.GetString("MenuItemOpenText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Copy image.
+        /// </summary>
+        internal static string MenuItemPointCopyText {
+            get {
+                return ResourceManager.GetString("MenuItemPointCopyText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Insert image.
+        /// </summary>
+        internal static string MenuItemPointInsertText {
+            get {
+                return ResourceManager.GetString("MenuItemPointInsertText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Open image.
+        /// </summary>
+        internal static string MenuItemPointLoadText {
+            get {
+                return ResourceManager.GetString("MenuItemPointLoadText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Set color to transparent by clicking.
+        /// </summary>
+        internal static string MenuItemPointSetTranspText {
+            get {
+                return ResourceManager.GetString("MenuItemPointSetTranspText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to GIF files (*.gif)|*.gif|PNG files (*.png)|*.png|BMP files (*.bmp)|*.bmp|JPG files (*.jpg)|*.jpg|All files|*.*.
+        /// </summary>
+        internal static string OpenPictureFileDialogFilterText {
+            get {
+                return ResourceManager.GetString("OpenPictureFileDialogFilterText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Open TYP file.
+        /// </summary>
+        internal static string OpenPictureFileDialogText {
+            get {
+                return ResourceManager.GetString("OpenPictureFileDialogText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Small image.
         /// </summary>
         internal static string SmallImageMenuItemText {
             get {
                 return ResourceManager.GetString("SmallImageMenuItemText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Linien.
+        /// </summary>
+        internal static string TabPageLineText {
+            get {
+                return ResourceManager.GetString("TabPageLineText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The FamilyID is unique for a specific card (1..65535).
+        /// </summary>
+        internal static string TextBoxFamilyIDTooltipText {
+            get {
+                return ResourceManager.GetString("TextBoxFamilyIDTooltipText", resourceCulture);
             }
         }
     }

@@ -352,28 +352,28 @@ namespace TFEditor {
          // 
          this.ToolStripMenuItemnElementNew.Name = "ToolStripMenuItemnElementNew";
          this.ToolStripMenuItemnElementNew.Size = new System.Drawing.Size(222, 22);
-         this.ToolStripMenuItemnElementNew.Text = "&neues Element hinzufügen";
+         this.ToolStripMenuItemnElementNew.Text = LocalizedStrings.MenuItemNewElementText;
          this.ToolStripMenuItemnElementNew.Click += new System.EventHandler(this.ToolStripMenuItemElementNew_Click);
          // 
          // ToolStripMenuItemElementCopyTo
          // 
          this.ToolStripMenuItemElementCopyTo.Name = "ToolStripMenuItemElementCopyTo";
          this.ToolStripMenuItemElementCopyTo.Size = new System.Drawing.Size(222, 22);
-         this.ToolStripMenuItemElementCopyTo.Text = "Element &kopieren";
+         this.ToolStripMenuItemElementCopyTo.Text = LocalizedStrings.MenuItemElementCopyToText;
          this.ToolStripMenuItemElementCopyTo.Click += new System.EventHandler(this.ToolStripMenuItemElementCopyTo_Click);
          // 
          // ToolStripMenuItemElementDelete
          // 
          this.ToolStripMenuItemElementDelete.Name = "ToolStripMenuItemElementDelete";
          this.ToolStripMenuItemElementDelete.Size = new System.Drawing.Size(222, 22);
-         this.ToolStripMenuItemElementDelete.Text = "Element &löschen";
+         this.ToolStripMenuItemElementDelete.Text = LocalizedStrings.MenuItemElementDeleteText;
          this.ToolStripMenuItemElementDelete.Click += new System.EventHandler(this.ToolStripMenuItemElementDelete_Click);
          // 
          // ToolStripMenuItemElementTypchange
          // 
          this.ToolStripMenuItemElementTypchange.Name = "ToolStripMenuItemElementTypchange";
          this.ToolStripMenuItemElementTypchange.Size = new System.Drawing.Size(222, 22);
-         this.ToolStripMenuItemElementTypchange.Text = "Element&typ ändern";
+         this.ToolStripMenuItemElementTypchange.Text = LocalizedStrings.MenuItemElementChangeTypText;
          this.ToolStripMenuItemElementTypchange.Click += new System.EventHandler(this.ToolStripMenuItemElementTypchange_Click);
          // 
          // ToolStripMenuItemElementSaveAllPictures
@@ -385,7 +385,7 @@ namespace TFEditor {
             this.ToolStripMenuItemSaveTif});
          this.ToolStripMenuItemElementSaveAllPictures.Name = "ToolStripMenuItemElementSaveAllPictures";
          this.ToolStripMenuItemElementSaveAllPictures.Size = new System.Drawing.Size(222, 22);
-         this.ToolStripMenuItemElementSaveAllPictures.Text = "alle Elementbilder &speichern";
+         this.ToolStripMenuItemElementSaveAllPictures.Text = LocalizedStrings.MenuItemElementSaveAllPicturesText;
          // 
          // ToolStripMenuItemSavePng
          // 
@@ -423,7 +423,7 @@ namespace TFEditor {
          this.label7.Name = "label7";
          this.label7.Size = new System.Drawing.Size(36, 13);
          this.label7.TabIndex = 19;
-         this.label7.Text = "Nacht";
+         this.label7.Text = LocalizedStrings.LabelsNightText;
          // 
          // label6
          // 
@@ -516,14 +516,14 @@ namespace TFEditor {
          // 
          this.ToolStripMenuItemAreaColor1.Name = "ToolStripMenuItemAreaColor1";
          this.ToolStripMenuItemAreaColor1.Size = new System.Drawing.Size(246, 22);
-         this.ToolStripMenuItemAreaColor1.Text = "&Farbe 1 setzen";
+         this.ToolStripMenuItemAreaColor1.Text = LocalizedStrings.MenuItemAreaColor1Text;
          this.ToolStripMenuItemAreaColor1.Click += new System.EventHandler(this.ToolStripMenuAreaColor1_Click);
          // 
          // ToolStripMenuItemAreaColor2
          // 
          this.ToolStripMenuItemAreaColor2.Name = "ToolStripMenuItemAreaColor2";
          this.ToolStripMenuItemAreaColor2.Size = new System.Drawing.Size(246, 22);
-         this.ToolStripMenuItemAreaColor2.Text = "F&arbe 2 setzen";
+         this.ToolStripMenuItemAreaColor2.Text = LocalizedStrings.MenuItemAreaColor2Text;
          this.ToolStripMenuItemAreaColor2.Click += new System.EventHandler(this.ToolStripMenuAreaColor2_Click);
          // 
          // ToolStripMenuItemAreaColor1Transparent
@@ -551,7 +551,7 @@ namespace TFEditor {
          // 
          this.ToolStripMenuItemAreaInsert.Name = "ToolStripMenuItemAreaInsert";
          this.ToolStripMenuItemAreaInsert.Size = new System.Drawing.Size(246, 22);
-         this.ToolStripMenuItemAreaInsert.Text = "Bild &einfügen";
+         this.ToolStripMenuItemAreaInsert.Text = LocalizedStrings.MenuItemPointInsertText;
          this.ToolStripMenuItemAreaInsert.Click += new System.EventHandler(this.ToolStripMenuAreaInsert_Click);
          // 
          // pictureBoxAreaDay
@@ -575,7 +575,7 @@ namespace TFEditor {
          this.tabPageLine.Padding = new System.Windows.Forms.Padding(2);
          this.tabPageLine.Size = new System.Drawing.Size(542, 585);
          this.tabPageLine.TabIndex = 1;
-         this.tabPageLine.Text = "Linien";
+         this.tabPageLine.Text = LocalizedStrings.TabPageLineText;
          this.tabPageLine.UseVisualStyleBackColor = true;
          // 
          // splitContainerLine
@@ -643,7 +643,7 @@ namespace TFEditor {
          // 
          // columnHeader8
          // 
-         this.columnHeader8.Text = "Liniebreite";
+         this.columnHeader8.Text = LocalizedStrings.ColumnHeader8Text;
          // 
          // labelLineWidth
          // 
@@ -653,7 +653,7 @@ namespace TFEditor {
          this.labelLineWidth.Name = "labelLineWidth";
          this.labelLineWidth.Size = new System.Drawing.Size(73, 13);
          this.labelLineWidth.TabIndex = 31;
-         this.labelLineWidth.Text = "Liniendicke: ?";
+         this.labelLineWidth.Text = LocalizedStrings.LabelLineWithText;
          // 
          // checkBoxLineTextRotation
          // 
@@ -663,7 +663,7 @@ namespace TFEditor {
          this.checkBoxLineTextRotation.Name = "checkBoxLineTextRotation";
          this.checkBoxLineTextRotation.Size = new System.Drawing.Size(168, 17);
          this.checkBoxLineTextRotation.TabIndex = 30;
-         this.checkBoxLineTextRotation.Text = "Textverlauf an Linie anpassen";
+         this.checkBoxLineTextRotation.Text = LocalizedStrings.LineTextRotationCheckBoxItemText;
          this.checkBoxLineTextRotation.UseVisualStyleBackColor = true;
          this.checkBoxLineTextRotation.CheckedChanged += new System.EventHandler(this.checkBoxLineTextRotation_CheckedChanged);
          // 
@@ -694,7 +694,7 @@ namespace TFEditor {
          this.label13.Name = "label13";
          this.label13.Size = new System.Drawing.Size(59, 13);
          this.label13.TabIndex = 5;
-         this.label13.Text = "Randbreite";
+         this.label13.Text = LocalizedStrings.MarginWidthLabelText;
          // 
          // numericUpDownLineBorder
          // 
@@ -957,7 +957,7 @@ namespace TFEditor {
          // 
          // columnHeader9
          // 
-         this.columnHeader9.Text = "Breite/Höhe";
+         this.columnHeader9.Text = LocalizedStrings.ColumnHeader9Text;
          // 
          // LabelPointNigth
          // 
@@ -1005,28 +1005,28 @@ namespace TFEditor {
          // 
          this.ToolStripMenuItemPointCopy.Name = "ToolStripMenuItemPointCopy";
          this.ToolStripMenuItemPointCopy.Size = new System.Drawing.Size(296, 22);
-         this.ToolStripMenuItemPointCopy.Text = "Bild kopieren";
+         this.ToolStripMenuItemPointCopy.Text = LocalizedStrings.MenuItemPointCopyText;
          this.ToolStripMenuItemPointCopy.Click += new System.EventHandler(this.ToolStripMenuItemPointCopy_Click);
          // 
          // ToolStripMenuItemPointInsert
          // 
          this.ToolStripMenuItemPointInsert.Name = "ToolStripMenuItemPointInsert";
          this.ToolStripMenuItemPointInsert.Size = new System.Drawing.Size(296, 22);
-         this.ToolStripMenuItemPointInsert.Text = "Bild einfügen";
+         this.ToolStripMenuItemPointInsert.Text = LocalizedStrings.MenuItemPointInsertText;
          this.ToolStripMenuItemPointInsert.Click += new System.EventHandler(this.ToolStripMenuItemPointInsert_Click);
          // 
          // ToolStripMenuItemPointLoad
          // 
          this.ToolStripMenuItemPointLoad.Name = "ToolStripMenuItemPointLoad";
          this.ToolStripMenuItemPointLoad.Size = new System.Drawing.Size(296, 22);
-         this.ToolStripMenuItemPointLoad.Text = "Bild öffnen";
+         this.ToolStripMenuItemPointLoad.Text = LocalizedStrings.MenuItemPointLoadText;
          this.ToolStripMenuItemPointLoad.Click += new System.EventHandler(this.ToolStripMenuItemPointLoad_Click);
          // 
          // ToolStripMenuItemPointSetTransp
          // 
          this.ToolStripMenuItemPointSetTransp.Name = "ToolStripMenuItemPointSetTransp";
          this.ToolStripMenuItemPointSetTransp.Size = new System.Drawing.Size(296, 22);
-         this.ToolStripMenuItemPointSetTransp.Text = "Farbe durch Klick als transparent festlegen";
+         this.ToolStripMenuItemPointSetTransp.Text = LocalizedStrings.MenuItemPointSetTranspText;
          this.ToolStripMenuItemPointSetTransp.Click += new System.EventHandler(this.ToolStripMenuItemPointSetTransp_Click);
          // 
          // pictureBoxPointDay
@@ -1094,7 +1094,7 @@ namespace TFEditor {
          // Column1
          // 
          this.Column1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
-         this.Column1.HeaderText = "Sprache";
+         this.Column1.HeaderText = LocalizedStrings.Column1HeaderText;
          this.Column1.Name = "Column1";
          this.Column1.ReadOnly = true;
          this.Column1.Width = 72;
@@ -1124,8 +1124,8 @@ namespace TFEditor {
          this.label2.Name = "label2";
          this.label2.Size = new System.Drawing.Size(49, 13);
          this.label2.TabIndex = 7;
-         this.label2.Text = "Schriftart";
-         // 
+         this.label2.Text = LocalizedStrings.LabelFontText;
+        
          // pictureBoxCustomColor2
          // 
          this.pictureBoxCustomColor2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
@@ -1144,7 +1144,7 @@ namespace TFEditor {
          this.label1.Name = "label1";
          this.label1.Size = new System.Drawing.Size(61, 13);
          this.label1.TabIndex = 6;
-         this.label1.Text = "Schriftfarbe";
+         this.label1.Text = LocalizedStrings.LabelFontColorText;
          // 
          // label9
          // 
@@ -1154,7 +1154,8 @@ namespace TFEditor {
          this.label9.Name = "label9";
          this.label9.Size = new System.Drawing.Size(36, 13);
          this.label9.TabIndex = 20;
-         this.label9.Text = "Nacht";
+            this.label9.Text = LocalizedStrings.LabelsNightText;
+
          // 
          // listBoxCustomColor
          // 
@@ -1239,7 +1240,7 @@ namespace TFEditor {
          this.ToolStripMenuItemNew.Name = "ToolStripMenuItemNew";
          this.ToolStripMenuItemNew.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.N)));
          this.ToolStripMenuItemNew.Size = new System.Drawing.Size(205, 22);
-         this.ToolStripMenuItemNew.Text = "&Neu";
+         this.ToolStripMenuItemNew.Text = LocalizedStrings.MenuItemNewText;
          this.ToolStripMenuItemNew.Click += new System.EventHandler(this.ToolStripMenuItemNew_Click);
          // 
          // ToolStripMenuItemOpen
@@ -1249,7 +1250,7 @@ namespace TFEditor {
          this.ToolStripMenuItemOpen.Name = "ToolStripMenuItemOpen";
          this.ToolStripMenuItemOpen.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.O)));
          this.ToolStripMenuItemOpen.Size = new System.Drawing.Size(205, 22);
-         this.ToolStripMenuItemOpen.Text = "Ö&ffnen";
+         this.ToolStripMenuItemOpen.Text = LocalizedStrings.MenuItemOpenText;
          this.ToolStripMenuItemOpen.Click += new System.EventHandler(this.ToolStripMenuItemOpen_Click);
          // 
          // ToolStripMenuItemLastFiles
@@ -1257,7 +1258,7 @@ namespace TFEditor {
          this.ToolStripMenuItemLastFiles.Enabled = false;
          this.ToolStripMenuItemLastFiles.Name = "ToolStripMenuItemLastFiles";
          this.ToolStripMenuItemLastFiles.Size = new System.Drawing.Size(205, 22);
-         this.ToolStripMenuItemLastFiles.Text = "zuletzt geöffnete Dateien";
+         this.ToolStripMenuItemLastFiles.Text = LocalizedStrings.MenuItemLastFilesText;
          // 
          // toolStripSeparator
          // 
@@ -1290,7 +1291,7 @@ namespace TFEditor {
          // 
          this.ToolStripMenuItemClose.Name = "ToolStripMenuItemClose";
          this.ToolStripMenuItemClose.Size = new System.Drawing.Size(205, 22);
-         this.ToolStripMenuItemClose.Text = "&Beenden";
+         this.ToolStripMenuItemClose.Text = LocalizedStrings.MenuItemCloseText;
          this.ToolStripMenuItemClose.Click += new System.EventHandler(this.ToolStripMenuItemClose_Click);
          // 
          // toolStripMenuItem1
@@ -1330,7 +1331,7 @@ namespace TFEditor {
          // 
          this.ToolStripMenuItemList.Name = "ToolStripMenuItemList";
          this.ToolStripMenuItemList.Size = new System.Drawing.Size(122, 22);
-         this.ToolStripMenuItemList.Text = "Liste";
+         this.ToolStripMenuItemList.Text = LocalizedStrings.MenuItemListText;
          this.ToolStripMenuItemList.Click += new System.EventHandler(this.ToolStripMenuItemList_Click);
          // 
          // ToolStripMenuItemDetail
@@ -1353,7 +1354,7 @@ namespace TFEditor {
          // 
          this.ToolStripMenuItemExtraLanguage.Name = "ToolStripMenuItemExtraLanguage";
          this.ToolStripMenuItemExtraLanguage.Size = new System.Drawing.Size(270, 22);
-         this.ToolStripMenuItemExtraLanguage.Text = "angezeigte Sprache";
+         this.ToolStripMenuItemExtraLanguage.Text = LocalizedStrings.MenuItemExtraLanguageText;
          // 
          // ToolStripMenuItemExtraGarmincolor
          // 
@@ -1361,7 +1362,7 @@ namespace TFEditor {
          this.ToolStripMenuItemExtraGarmincolor.CheckState = System.Windows.Forms.CheckState.Checked;
          this.ToolStripMenuItemExtraGarmincolor.Name = "ToolStripMenuItemExtraGarmincolor";
          this.ToolStripMenuItemExtraGarmincolor.Size = new System.Drawing.Size(270, 22);
-         this.ToolStripMenuItemExtraGarmincolor.Text = "bei POI nur Garminfarben verwenden";
+         this.ToolStripMenuItemExtraGarmincolor.Text = LocalizedStrings.MenuItemExtraGarminColorText;
          this.ToolStripMenuItemExtraGarmincolor.Click += new System.EventHandler(this.ToolStripMenuItemExtraGarmincolor_Click);
          // 
          // hilfeToolStripMenuItem
@@ -1370,7 +1371,7 @@ namespace TFEditor {
             this.ToolStripMenuItemInfo});
          this.helpToolStripMenuItem.Name = "hilfeToolStripMenuItem";
          this.helpToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
-         this.helpToolStripMenuItem.Text = $"&{LocalizedStrings.HelpMenuText}";
+         this.helpToolStripMenuItem.Text = LocalizedStrings.HelpMenuText;
          // 
          // ToolStripMenuItemInfo
          // 
@@ -1406,7 +1407,7 @@ namespace TFEditor {
          this.toolStripButtonSave.ImageTransparentColor = System.Drawing.Color.Magenta;
          this.toolStripButtonSave.Name = "toolStripButtonSave";
          this.toolStripButtonSave.Size = new System.Drawing.Size(23, 22);
-         this.toolStripButtonSave.Text = "Speichern";
+         this.toolStripButtonSave.Text = LocalizedStrings.ButtonSaveText;
          this.toolStripButtonSave.Click += new System.EventHandler(this.toolStripButtonSave_Click);
          // 
          // toolStripButtonOpen
@@ -1416,7 +1417,7 @@ namespace TFEditor {
          this.toolStripButtonOpen.ImageTransparentColor = System.Drawing.Color.Magenta;
          this.toolStripButtonOpen.Name = "toolStripButtonOpen";
          this.toolStripButtonOpen.Size = new System.Drawing.Size(23, 22);
-         this.toolStripButtonOpen.Text = "Öffnen";
+         this.toolStripButtonOpen.Text = LocalizedStrings.ButtonOpenText;
          this.toolStripButtonOpen.Click += new System.EventHandler(this.toolStripButtonOpen_Click);
          // 
          // toolStripSeparator1
@@ -1457,7 +1458,7 @@ namespace TFEditor {
          this.toolStripTextBoxFamilyID.MaxLength = 5;
          this.toolStripTextBoxFamilyID.Name = "toolStripTextBoxFamilyID";
          this.toolStripTextBoxFamilyID.Size = new System.Drawing.Size(50, 25);
-         this.toolStripTextBoxFamilyID.ToolTipText = "die FamilyID ist eindeutig für eine bestimmte Karte (1..65535)";
+         this.toolStripTextBoxFamilyID.ToolTipText = LocalizedStrings.TextBoxFamilyIDTooltipText;
          this.toolStripTextBoxFamilyID.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.toolStripTextBoxFamilyID_KeyPress);
          this.toolStripTextBoxFamilyID.TextChanged += new System.EventHandler(this.toolStripTextBoxFamilyID_TextChanged);
          // 
@@ -1483,14 +1484,14 @@ namespace TFEditor {
          // saveFileDialog1
          // 
          this.saveFileDialog1.DefaultExt = "typ";
-         this.saveFileDialog1.Filter = "Typfiles (*.typ)|*.typ|Alle Dateien|*.*";
-         this.saveFileDialog1.Title = "Typfile speichern";
+         this.saveFileDialog1.Filter = LocalizedStrings.FileDialogTypFileFilterText;
+         this.saveFileDialog1.Title = LocalizedStrings.FileDialogSaveTitleText;
          // 
          // openFileDialog1
          // 
          this.openFileDialog1.DefaultExt = "typ";
-         this.openFileDialog1.Filter = "Typfiles (*.typ)|*.typ|Alle Dateien|*.*";
-         this.openFileDialog1.Title = "Typfile öffnen";
+         this.openFileDialog1.Filter = LocalizedStrings.FileDialogTypFileFilterText;
+         this.openFileDialog1.Title = LocalizedStrings.OpenPictureFileDialogText;
          // 
          // colorDialog1
          // 
@@ -1504,10 +1505,9 @@ namespace TFEditor {
          // openFileDialogPicture
          // 
          this.openFileDialogPicture.DefaultExt = "png";
-         this.openFileDialogPicture.Filter = "GIF-Dateien (*.gif)|*.gif|PNG-Dateien (*.png)|*.png|BMP-Dateien (*.bmp)|*.bmp|JPG" +
-    "-Dateien (*.jpg)|*.jpg|Alle Dateien|*.*";
+         this.openFileDialogPicture.Filter = LocalizedStrings.OpenPictureFileDialogFilterText;
          this.openFileDialogPicture.FilterIndex = 2;
-         this.openFileDialogPicture.Title = "Typfile öffnen";
+         this.openFileDialogPicture.Title = LocalizedStrings.OpenPictureFileDialogText;
          // 
          // FormMain
          // 

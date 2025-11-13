@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="HelpMenuText" xml:space="preserve">
-    <value>Help</value>
+    <value>&amp;Help</value>
   </data>
   <data name="LargeImageMenuItemText" xml:space="preserve">
     <value>Large image</value>
@@ -128,5 +128,110 @@
   </data>
   <data name="SmallImageMenuItemText" xml:space="preserve">
     <value>Small image</value>
+  </data>
+  <data name="MenuItemPointInsertText" xml:space="preserve">
+    <value>Insert image</value>
+  </data>
+  <data name="MenuItemPointLoadText" xml:space="preserve">
+    <value>Open image</value>
+  </data>
+  <data name="MenuItemPointCopyText" xml:space="preserve">
+    <value>Copy image</value>
+  </data>
+  <data name="MenuItemPointSetTranspText" xml:space="preserve">
+    <value>Set color to transparent by clicking</value>
+  </data>
+  <data name="LabelFontColorText" xml:space="preserve">
+    <value>Font color</value>
+  </data>
+  <data name="LabelFontText" xml:space="preserve">
+    <value>Font</value>
+  </data>
+  <data name="LabelsNightText" xml:space="preserve">
+    <value>Night</value>
+  </data>
+  <data name="MenuItemCloseText" xml:space="preserve">
+    <value>&amp;Finish</value>
+  </data>
+  <data name="MenuItemExtraLanguageText" xml:space="preserve">
+    <value>Displayed language</value>
+  </data>
+  <data name="MenuItemExtraGarminColorText" xml:space="preserve">
+    <value>Use only Garmin colors for POIs</value>
+  </data>
+  <data name="ButtonOpenText" xml:space="preserve">
+    <value>Open</value>
+  </data>
+  <data name="OpenPictureFileDialogText" xml:space="preserve">
+    <value>Open TYP file</value>
+  </data>
+  <data name="OpenPictureFileDialogFilterText" xml:space="preserve">
+    <value>GIF files (*.gif)|*.gif|PNG files (*.png)|*.png|BMP files (*.bmp)|*.bmp|JPG files (*.jpg)|*.jpg|All files|*.*</value>
+  </data>
+  <data name="FileDialogTypFileFilterText" xml:space="preserve">
+    <value>TYP files (*.typ)|*.typ|All files|*.*</value>
+  </data>
+  <data name="FileDialogSaveTitleText" xml:space="preserve">
+    <value>Save TYP file</value>
+  </data>
+  <data name="TextBoxFamilyIDTooltipText" xml:space="preserve">
+    <value>The FamilyID is unique for a specific card (1..65535)</value>
+  </data>
+  <data name="ButtonSaveText" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="MenuItemAreaColor1Text" xml:space="preserve">
+    <value>&amp;Set color 1</value>
+  </data>
+  <data name="MenuItemNewElementText" xml:space="preserve">
+    <value>&amp;Add new element</value>
+  </data>
+  <data name="MenuItemElementCopyToText" xml:space="preserve">
+    <value>Copy element</value>
+  </data>
+  <data name="MenuItemElementDeleteText" xml:space="preserve">
+    <value>Delete &amp;element</value>
+  </data>
+  <data name="MenuItemElementChangeTypText" xml:space="preserve">
+    <value>Change element &amp;TYP</value>
+  </data>
+  <data name="MenuItemElementSaveAllPicturesText" xml:space="preserve">
+    <value>&amp;Save all element images</value>
+  </data>
+  <data name="MenuItemAreaColor2Text" xml:space="preserve">
+    <value>&amp;Set color 2</value>
+  </data>
+  <data name="TabPageLineText" xml:space="preserve">
+    <value>Lines</value>
+  </data>
+  <data name="ColumnHeader8Text" xml:space="preserve">
+    <value>Line width</value>
+  </data>
+  <data name="LineTextRotationCheckBoxItemText" xml:space="preserve">
+    <value>Adjust text flow to line</value>
+  </data>
+  <data name="LabelLineWithText" xml:space="preserve">
+    <value>Line width: ?</value>
+  </data>
+  <data name="MarginWidthLabelText" xml:space="preserve">
+    <value>Margin width</value>
+  </data>
+  <data name="ColumnHeader9Text" xml:space="preserve">
+    <value>Width/Height</value>
+  </data>
+  <data name="Column1HeaderText" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="MenuItemNewText" xml:space="preserve">
+    <value>&amp;New</value>
+  </data>
+  <data name="MenuItemOpenText" xml:space="preserve">
+    <value>&amp;Open</value>
+  </data>
+  <data name="MenuItemLastFilesText" xml:space="preserve">
+    <value>Recently opened files</value>
+  </data>
+  <data name="MenuItemListText" xml:space="preserve">
+    <value>List</value>
   </data>
 </root>

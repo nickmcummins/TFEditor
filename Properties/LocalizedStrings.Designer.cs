@@ -412,6 +412,15 @@ namespace TFEditor.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Tile.
+        /// </summary>
+        internal static string MenuItemTileText {
+            get {
+                return ResourceManager.GetString("MenuItemTileText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to GIF files (*.gif)|*.gif|PNG files (*.png)|*.png|BMP files (*.bmp)|*.bmp|JPG files (*.jpg)|*.jpg|All files|*.*.
         /// </summary>
         internal static string OpenPictureFileDialogFilterText {
@@ -439,11 +448,29 @@ namespace TFEditor.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Areas.
+        /// </summary>
+        internal static string TabPageAreaText {
+            get {
+                return ResourceManager.GetString("TabPageAreaText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Linien.
         /// </summary>
         internal static string TabPageLineText {
             get {
                 return ResourceManager.GetString("TabPageLineText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Points.
+        /// </summary>
+        internal static string TabPagePointText {
+            get {
+                return ResourceManager.GetString("TabPagePointText", resourceCulture);
             }
         }
         

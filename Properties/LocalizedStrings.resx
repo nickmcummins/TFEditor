@@ -249,4 +249,13 @@
   <data name="MenuItemSaveText" xml:space="preserve">
     <value>&amp;Save</value>
   </data>
+  <data name="MenuItemTileText" xml:space="preserve">
+    <value>Tile</value>
+  </data>
+  <data name="TabPagePointText" xml:space="preserve">
+    <value>Points</value>
+  </data>
+  <data name="TabPageAreaText" xml:space="preserve">
+    <value>Areas</value>
+  </data>
 </root>

@@ -267,7 +267,7 @@ namespace TFEditor {
          this.tabPageArea.Padding = new System.Windows.Forms.Padding(2);
          this.tabPageArea.Size = new System.Drawing.Size(542, 585);
          this.tabPageArea.TabIndex = 0;
-         this.tabPageArea.Text = "Flächen";
+         this.tabPageArea.Text = LocalizedStrings.TabPageAreaText;
          this.tabPageArea.UseVisualStyleBackColor = true;
          // 
          // splitContainerArea
@@ -899,7 +899,7 @@ namespace TFEditor {
          this.tabPagePoint.Padding = new System.Windows.Forms.Padding(2);
          this.tabPagePoint.Size = new System.Drawing.Size(542, 583);
          this.tabPagePoint.TabIndex = 2;
-         this.tabPagePoint.Text = "Punkte";
+         this.tabPagePoint.Text = LocalizedStrings.TabPagePointText;
          this.tabPagePoint.UseVisualStyleBackColor = true;
          // 
          // splitContainerPoint
@@ -1310,7 +1310,7 @@ namespace TFEditor {
          // 
          this.ToolStripMenuItemTile.Name = "ToolStripMenuItemTile";
          this.ToolStripMenuItemTile.Size = new System.Drawing.Size(122, 22);
-         this.ToolStripMenuItemTile.Text = "Kachel";
+         this.ToolStripMenuItemTile.Text = LocalizedStrings.MenuItemTileText;
          this.ToolStripMenuItemTile.Click += new System.EventHandler(this.ToolStripMenuItemTile_Click);
          // 
          // ToolStripMenuItemLarge

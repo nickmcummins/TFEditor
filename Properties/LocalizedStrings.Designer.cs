@@ -232,6 +232,15 @@ namespace TFEditor.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to &amp;Copy image.
+        /// </summary>
+        internal static string MenuItemCopyAreaText {
+            get {
+                return ResourceManager.GetString("MenuItemCopyAreaText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Change element &amp;TYP.
         /// </summary>
         internal static string MenuItemElementChangeTypText {
@@ -291,6 +300,33 @@ namespace TFEditor.Properties {
         internal static string MenuItemLastFilesText {
             get {
                 return ResourceManager.GetString("MenuItemLastFilesText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &amp;Set color.
+        /// </summary>
+        internal static string MenuItemLineColor1Text {
+            get {
+                return ResourceManager.GetString("MenuItemLineColor1Text", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &amp;Set color 2.
+        /// </summary>
+        internal static string MenuItemLineColor2Text {
+            get {
+                return ResourceManager.GetString("MenuItemLineColor2Text", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &amp;Copy image.
+        /// </summary>
+        internal static string MenuItemLineCopyText {
+            get {
+                return ResourceManager.GetString("MenuItemLineCopyText", resourceCulture);
             }
         }
         
@@ -363,6 +399,15 @@ namespace TFEditor.Properties {
         internal static string MenuItemPointSetTranspText {
             get {
                 return ResourceManager.GetString("MenuItemPointSetTranspText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &amp;Save.
+        /// </summary>
+        internal static string MenuItemSaveText {
+            get {
+                return ResourceManager.GetString("MenuItemSaveText", resourceCulture);
             }
         }
         

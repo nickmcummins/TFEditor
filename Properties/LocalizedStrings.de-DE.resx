@@ -234,4 +234,19 @@
   <data name="MenuItemListText" xml:space="preserve">
     <value>Liste</value>
   </data>
+  <data name="MenuItemCopyAreaText" xml:space="preserve">
+    <value>Bild &amp;kopieren</value>
+  </data>
+  <data name="MenuItemLineColor1Text" xml:space="preserve">
+    <value>&amp;Farbe 1 setzen</value>
+  </data>
+  <data name="MenuItemLineColor2Text" xml:space="preserve">
+    <value>F&amp;arbe 2 setzen</value>
+  </data>
+  <data name="MenuItemLineCopyText" xml:space="preserve">
+    <value>Bild &amp;kopieren</value>
+  </data>
+  <data name="MenuItemSaveText" xml:space="preserve">
+    <value>&amp;Speichern</value>
+  </data>
 </root>

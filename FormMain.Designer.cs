@@ -544,7 +544,7 @@ namespace TFEditor {
          // 
          this.ToolStripMenuItemAreaCopy.Name = "ToolStripMenuItemAreaCopy";
          this.ToolStripMenuItemAreaCopy.Size = new System.Drawing.Size(246, 22);
-         this.ToolStripMenuItemAreaCopy.Text = "Bild &kopieren";
+         this.ToolStripMenuItemAreaCopy.Text = LocalizedStrings.MenuItemCopyAreaText;
          this.ToolStripMenuItemAreaCopy.Click += new System.EventHandler(this.ToolStripMenuAreaCopy_Click);
          // 
          // ToolStripMenuItemAreaInsert
@@ -808,14 +808,14 @@ namespace TFEditor {
          // 
          this.ToolStripMenuItemLineColor1.Name = "ToolStripMenuItemLineColor1";
          this.ToolStripMenuItemLineColor1.Size = new System.Drawing.Size(218, 22);
-         this.ToolStripMenuItemLineColor1.Text = "&Farbe 1 setzen";
+         this.ToolStripMenuItemLineColor1.Text = LocalizedStrings.MenuItemLineColor1Text;
          this.ToolStripMenuItemLineColor1.Click += new System.EventHandler(this.ToolStripMenuItemLineColor1_Click);
          // 
          // ToolStripMenuItemLineColor2
          // 
          this.ToolStripMenuItemLineColor2.Name = "ToolStripMenuItemLineColor2";
          this.ToolStripMenuItemLineColor2.Size = new System.Drawing.Size(218, 22);
-         this.ToolStripMenuItemLineColor2.Text = "F&arbe 2 setzen";
+         this.ToolStripMenuItemLineColor2.Text = LocalizedStrings.MenuItemLineColor2Text;
          this.ToolStripMenuItemLineColor2.Click += new System.EventHandler(this.ToolStripMenuItemLineColor2_Click);
          // 
          // ToolStripMenuItemLineColor1Transparent
@@ -836,7 +836,7 @@ namespace TFEditor {
          // 
          this.ToolStripMenuItemLineCopy.Name = "ToolStripMenuItemLineCopy";
          this.ToolStripMenuItemLineCopy.Size = new System.Drawing.Size(218, 22);
-         this.ToolStripMenuItemLineCopy.Text = "Bild &kopieren";
+         this.ToolStripMenuItemLineCopy.Text = LocalizedStrings.MenuItemLineCopyText;
          this.ToolStripMenuItemLineCopy.Click += new System.EventHandler(this.ToolStripMenuItemLineCopy_Click);
          // 
          // ToolStripMenuItemLineInsert
@@ -1272,7 +1272,7 @@ namespace TFEditor {
          this.ToolStripMenuItemSave.Name = "ToolStripMenuItemSave";
          this.ToolStripMenuItemSave.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.S)));
          this.ToolStripMenuItemSave.Size = new System.Drawing.Size(205, 22);
-         this.ToolStripMenuItemSave.Text = "&Speichern";
+         this.ToolStripMenuItemSave.Text = LocalizedStrings.MenuItemSaveText;
          this.ToolStripMenuItemSave.Click += new System.EventHandler(this.ToolStripMenuItemSave_Click);
          // 
          // ToolStripMenuItemSave2

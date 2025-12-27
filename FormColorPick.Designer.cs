@@ -1,14 +1,14 @@
 ﻿namespace TFEditor {
    partial class FormColorPick {
       /// <summary>
-      /// Erforderliche Designervariable.
+      /// Required designer variable.
       /// </summary>
       private System.ComponentModel.IContainer components = null;
 
       /// <summary>
-      /// Verwendete Ressourcen bereinigen.
+      /// Clean up any resources being used.
       /// </summary>
-      /// <param name="disposing">True, wenn verwaltete Ressourcen gelöscht werden sollen; andernfalls False.</param>
+      /// <param name="disposing">True if managed resources should be disposed; otherwise, False.</param>
       protected override void Dispose(bool disposing) {
          if (disposing && (components != null)) {
             components.Dispose();
@@ -16,11 +16,11 @@
          base.Dispose(disposing);
       }
 
-      #region Vom Windows Form-Designer generierter Code
+      #region Windows Form Designer generated code
 
       /// <summary>
-      /// Erforderliche Methode für die Designerunterstützung.
-      /// Der Inhalt der Methode darf nicht mit dem Code-Editor geändert werden.
+      /// Required method for Designer support.
+      /// The contents of this method should not be modified with the code editor.
       /// </summary>
       private void InitializeComponent() {
          this.labelColor = new System.Windows.Forms.Label();
@@ -53,7 +53,7 @@
          this.button_Cancel.Name = "button_Cancel";
          this.button_Cancel.Size = new System.Drawing.Size(86, 31);
          this.button_Cancel.TabIndex = 2;
-         this.button_Cancel.Text = "Abbruch";
+         this.button_Cancel.Text = "Cancel";
          this.button_Cancel.UseVisualStyleBackColor = true;
          // 
          // FormColorPick
@@ -69,7 +69,7 @@
          this.Controls.Add(this.labelColor);
          this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
          this.Name = "FormColorPick";
-         this.Text = "Transparente Farbe setzen";
+         this.Text = "Set transparent color";
          this.Load += new System.EventHandler(this.FormColorPick_Load);
          this.ResumeLayout(false);
 

@@ -3,14 +3,14 @@
 namespace TFEditor {
    partial class FormMain {
       /// <summary>
-      /// Erforderliche Designervariable.
+      /// Required designer variable.
       /// </summary>
       private System.ComponentModel.IContainer components = null;
 
       /// <summary>
-      /// Verwendete Ressourcen bereinigen.
+      /// Clean up any resources being used.
       /// </summary>
-      /// <param name="disposing">True, wenn verwaltete Ressourcen gelöscht werden sollen; andernfalls False.</param>
+      /// <param name="disposing">True if managed resources should be disposed; otherwise, False.</param>
       protected override void Dispose(bool disposing) {
          if (disposing && (components != null)) {
             components.Dispose();
@@ -18,11 +18,11 @@ namespace TFEditor {
          base.Dispose(disposing);
       }
 
-      #region Vom Windows Form-Designer generierter Code
+      #region Windows Form Designer generated code
 
       /// <summary>
-      /// Erforderliche Methode für die Designerunterstützung.
-      /// Der Inhalt der Methode darf nicht mit dem Code-Editor geändert werden.
+      /// Required method for Designer support.
+      /// The contents of this method should not be modified with the code editor.
       /// </summary>
       private void InitializeComponent() {
          this.components = new System.ComponentModel.Container();
@@ -330,7 +330,7 @@ namespace TFEditor {
          // 
          // columnHeader1
          // 
-         this.columnHeader1.Text = "Zeichenreihenfolge";
+         this.columnHeader1.Text = "Draw order";
          // 
          // columnHeader6
          // 
@@ -391,28 +391,28 @@ namespace TFEditor {
          // 
          this.ToolStripMenuItemSavePng.Name = "ToolStripMenuItemSavePng";
          this.ToolStripMenuItemSavePng.Size = new System.Drawing.Size(116, 22);
-         this.ToolStripMenuItemSavePng.Text = "als PNG";
+         this.ToolStripMenuItemSavePng.Text = "as PNG";
          this.ToolStripMenuItemSavePng.Click += new System.EventHandler(this.ToolStripMenuItemSavePictures_Click);
          // 
          // ToolStripMenuItemSaveGif
          // 
          this.ToolStripMenuItemSaveGif.Name = "ToolStripMenuItemSaveGif";
          this.ToolStripMenuItemSaveGif.Size = new System.Drawing.Size(116, 22);
-         this.ToolStripMenuItemSaveGif.Text = "als GIF";
+         this.ToolStripMenuItemSaveGif.Text = "as GIF";
          this.ToolStripMenuItemSaveGif.Click += new System.EventHandler(this.ToolStripMenuItemSavePictures_Click);
          // 
          // ToolStripMenuItemSaveBmp
          // 
          this.ToolStripMenuItemSaveBmp.Name = "ToolStripMenuItemSaveBmp";
          this.ToolStripMenuItemSaveBmp.Size = new System.Drawing.Size(116, 22);
-         this.ToolStripMenuItemSaveBmp.Text = "als BMP";
+         this.ToolStripMenuItemSaveBmp.Text = "as BMP";
          this.ToolStripMenuItemSaveBmp.Click += new System.EventHandler(this.ToolStripMenuItemSavePictures_Click);
          // 
          // ToolStripMenuItemSaveTif
          // 
          this.ToolStripMenuItemSaveTif.Name = "ToolStripMenuItemSaveTif";
          this.ToolStripMenuItemSaveTif.Size = new System.Drawing.Size(116, 22);
-         this.ToolStripMenuItemSaveTif.Text = "als TIF";
+         this.ToolStripMenuItemSaveTif.Text = "as TIF";
          this.ToolStripMenuItemSaveTif.Click += new System.EventHandler(this.ToolStripMenuItemSavePictures_Click);
          // 
          // label7
@@ -433,7 +433,7 @@ namespace TFEditor {
          this.label6.Name = "label6";
          this.label6.Size = new System.Drawing.Size(26, 13);
          this.label6.TabIndex = 18;
-         this.label6.Text = "Tag";
+         this.label6.Text = "Day";
          // 
          // label4
          // 
@@ -443,7 +443,7 @@ namespace TFEditor {
          this.label4.Name = "label4";
          this.label4.Size = new System.Drawing.Size(62, 13);
          this.label4.TabIndex = 17;
-         this.label4.Text = "Polygontyp:";
+         this.label4.Text = "Polygon typ:";
          // 
          // numericUpDownAreaDraworder
          // 
@@ -472,7 +472,7 @@ namespace TFEditor {
          this.label5.Name = "label5";
          this.label5.Size = new System.Drawing.Size(125, 13);
          this.label5.TabIndex = 14;
-         this.label5.Text = "Zeichenreihenfolge (1...):";
+         this.label5.Text = "Draw order (1...):";
          // 
          // listBoxAreaTyp
          // 
@@ -530,14 +530,14 @@ namespace TFEditor {
          // 
          this.ToolStripMenuItemAreaColor1Transparent.Name = "ToolStripMenuItemAreaColor1Transparent";
          this.ToolStripMenuItemAreaColor1Transparent.Size = new System.Drawing.Size(246, 22);
-         this.ToolStripMenuItemAreaColor1Transparent.Text = "Farbe 1 transparent setzen";
+         this.ToolStripMenuItemAreaColor1Transparent.Text = "Set color 1 transparent";
          this.ToolStripMenuItemAreaColor1Transparent.Click += new System.EventHandler(this.ToolStripMenuItemAreaColor1Transparent_Click);
          // 
          // ToolStripMenuItemAreaColorSwap
          // 
          this.ToolStripMenuItemAreaColorSwap.Name = "ToolStripMenuItemAreaColorSwap";
          this.ToolStripMenuItemAreaColorSwap.Size = new System.Drawing.Size(246, 22);
-         this.ToolStripMenuItemAreaColorSwap.Text = "Farben/Transparenz ver&tauschen";
+         this.ToolStripMenuItemAreaColorSwap.Text = "Swap colors/transparency";
          this.ToolStripMenuItemAreaColorSwap.Click += new System.EventHandler(this.ToolStripMenuAreaColorSwap_Click);
          // 
          // ToolStripMenuItemAreaCopy
@@ -684,7 +684,7 @@ namespace TFEditor {
          this.groupBoxLine1.Size = new System.Drawing.Size(269, 140);
          this.groupBoxLine1.TabIndex = 28;
          this.groupBoxLine1.TabStop = false;
-         this.groupBoxLine1.Text = "Art der Darstellung";
+         this.groupBoxLine1.Text = "Display style";
          // 
          // label13
          // 
@@ -723,7 +723,7 @@ namespace TFEditor {
          this.label12.Name = "label12";
          this.label12.Size = new System.Drawing.Size(71, 13);
          this.label12.TabIndex = 3;
-         this.label12.Text = "Breite gesamt";
+         this.label12.Text = "Total width";
          // 
          // numericUpDownLineHeight
          // 
@@ -752,7 +752,7 @@ namespace TFEditor {
          this.radioButtonLineBitmap.Name = "radioButtonLineBitmap";
          this.radioButtonLineBitmap.Size = new System.Drawing.Size(159, 17);
          this.radioButtonLineBitmap.TabIndex = 1;
-         this.radioButtonLineBitmap.Text = "durch Grafik (max. 2 Farben)";
+         this.radioButtonLineBitmap.Text = "by bitmap (max. 2 colors)";
          this.radioButtonLineBitmap.UseVisualStyleBackColor = true;
          this.radioButtonLineBitmap.CheckedChanged += new System.EventHandler(this.radioButtonLineBitmap_CheckedChanged);
          // 
@@ -766,7 +766,7 @@ namespace TFEditor {
          this.radioButtonLineSolidColor.Size = new System.Drawing.Size(178, 17);
          this.radioButtonLineSolidColor.TabIndex = 0;
          this.radioButtonLineSolidColor.TabStop = true;
-         this.radioButtonLineSolidColor.Text = "durch Vollfarben (max. 2 Farben)";
+         this.radioButtonLineSolidColor.Text = "by solid colors (max. 2 colors)";
          this.radioButtonLineSolidColor.UseVisualStyleBackColor = true;
          this.radioButtonLineSolidColor.CheckedChanged += new System.EventHandler(this.radioButtonLineSolidColor_CheckedChanged);
          // 
@@ -778,7 +778,7 @@ namespace TFEditor {
          this.label15.Name = "label15";
          this.label15.Size = new System.Drawing.Size(39, 13);
          this.label15.TabIndex = 27;
-         this.label15.Text = "Nacht:";
+         this.label15.Text = "Night:";
          // 
          // pictureBoxLineNight
          // 
@@ -822,14 +822,14 @@ namespace TFEditor {
          // 
          this.ToolStripMenuItemLineColor1Transparent.Name = "ToolStripMenuItemLineColor1Transparent";
          this.ToolStripMenuItemLineColor1Transparent.Size = new System.Drawing.Size(218, 22);
-         this.ToolStripMenuItemLineColor1Transparent.Text = "Farbe 1 transparent setzen";
+         this.ToolStripMenuItemLineColor1Transparent.Text = "Set color 1 transparent";
          this.ToolStripMenuItemLineColor1Transparent.Click += new System.EventHandler(this.ToolStripMenuItemLineColor1Transparent_Click);
          // 
          // ToolStripMenuItemLineColorSwap
          // 
          this.ToolStripMenuItemLineColorSwap.Name = "ToolStripMenuItemLineColorSwap";
          this.ToolStripMenuItemLineColorSwap.Size = new System.Drawing.Size(218, 22);
-         this.ToolStripMenuItemLineColorSwap.Text = "Farben ver&tauschen";
+         this.ToolStripMenuItemLineColorSwap.Text = "Swap colors";
          this.ToolStripMenuItemLineColorSwap.Click += new System.EventHandler(this.ToolStripMenuItemLineColorSwap_Click);
          // 
          // ToolStripMenuItemLineCopy
@@ -843,7 +843,7 @@ namespace TFEditor {
          // 
          this.ToolStripMenuItemLineInsert.Name = "ToolStripMenuItemLineInsert";
          this.ToolStripMenuItemLineInsert.Size = new System.Drawing.Size(218, 22);
-         this.ToolStripMenuItemLineInsert.Text = "Bild &einfügen (32 x n, n<32)";
+         this.ToolStripMenuItemLineInsert.Text = "Insert image (32 x n, n<32)";
          this.ToolStripMenuItemLineInsert.Click += new System.EventHandler(this.ToolStripMenuItemLineInsert_Click);
          // 
          // label14
@@ -854,7 +854,7 @@ namespace TFEditor {
          this.label14.Name = "label14";
          this.label14.Size = new System.Drawing.Size(29, 13);
          this.label14.TabIndex = 25;
-         this.label14.Text = "Tag:";
+         this.label14.Text = "Day:";
          // 
          // pictureBoxLineDay
          // 
@@ -875,7 +875,7 @@ namespace TFEditor {
          this.label10.Name = "label10";
          this.label10.Size = new System.Drawing.Size(52, 13);
          this.label10.TabIndex = 19;
-         this.label10.Text = "Linientyp:";
+         this.label10.Text = "Line typ:";
          // 
          // listBoxLineTyp
          // 
@@ -967,7 +967,7 @@ namespace TFEditor {
          this.LabelPointNigth.Name = "LabelPointNigth";
          this.LabelPointNigth.Size = new System.Drawing.Size(39, 13);
          this.LabelPointNigth.TabIndex = 29;
-         this.LabelPointNigth.Text = "Nacht:";
+         this.LabelPointNigth.Text = "Night:";
          // 
          // LabelPointDay
          // 
@@ -977,7 +977,7 @@ namespace TFEditor {
          this.LabelPointDay.Name = "LabelPointDay";
          this.LabelPointDay.Size = new System.Drawing.Size(29, 13);
          this.LabelPointDay.TabIndex = 28;
-         this.LabelPointDay.Text = "Tag:";
+         this.LabelPointDay.Text = "Day:";
          // 
          // pictureBoxPointNight
          // 
@@ -1178,7 +1178,7 @@ namespace TFEditor {
          this.label8.Name = "label8";
          this.label8.Size = new System.Drawing.Size(26, 13);
          this.label8.TabIndex = 20;
-         this.label8.Text = "Tag";
+         this.label8.Text = "Day";
          // 
          // listBoxFont
          // 
@@ -1279,7 +1279,7 @@ namespace TFEditor {
          // 
          this.ToolStripMenuItemSave2.Name = "ToolStripMenuItemSave2";
          this.ToolStripMenuItemSave2.Size = new System.Drawing.Size(205, 22);
-         this.ToolStripMenuItemSave2.Text = "Speichern &unter";
+         this.ToolStripMenuItemSave2.Text = "Save &as";
          this.ToolStripMenuItemSave2.Click += new System.EventHandler(this.ToolStripMenuItemSave2_Click);
          // 
          // toolStripSeparator2
@@ -1437,7 +1437,7 @@ namespace TFEditor {
          this.toolStripTextBoxProductID.MaxLength = 5;
          this.toolStripTextBoxProductID.Name = "toolStripTextBoxProductID";
          this.toolStripTextBoxProductID.Size = new System.Drawing.Size(50, 25);
-         this.toolStripTextBoxProductID.ToolTipText = "Produkt-ID, i.A. 1";
+         this.toolStripTextBoxProductID.ToolTipText = "Product ID";
          this.toolStripTextBoxProductID.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.toolStripTextBoxProductID_KeyPress);
          this.toolStripTextBoxProductID.TextChanged += new System.EventHandler(this.toolStripTextBoxProductID_TextChanged);
          // 

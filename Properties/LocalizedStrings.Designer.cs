@@ -133,6 +133,15 @@ namespace TFEditor.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Do you want to exit the program without saving?.
+        /// </summary>
+        internal static string FormClosingMessageBoxText {
+            get {
+                return ResourceManager.GetString("FormClosingMessageBoxText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to &amp;Help.
         /// </summary>
         internal static string HelpMenuText {
@@ -192,6 +201,15 @@ namespace TFEditor.Properties {
         internal static string LineTextRotationCheckBoxItemText {
             get {
                 return ResourceManager.GetString("LineTextRotationCheckBoxItemText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Do you want to save the current data first?.
+        /// </summary>
+        internal static string LoadTypFileSaveCurrentMessageBoxText {
+            get {
+                return ResourceManager.GetString("LoadTypFileSaveCurrentMessageBoxText", resourceCulture);
             }
         }
         
@@ -421,6 +439,15 @@ namespace TFEditor.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to View.
+        /// </summary>
+        internal static string MenuItemViewText {
+            get {
+                return ResourceManager.GetString("MenuItemViewText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to GIF files (*.gif)|*.gif|PNG files (*.png)|*.png|BMP files (*.bmp)|*.bmp|JPG files (*.jpg)|*.jpg|All files|*.*.
         /// </summary>
         internal static string OpenPictureFileDialogFilterText {
@@ -435,6 +462,15 @@ namespace TFEditor.Properties {
         internal static string OpenPictureFileDialogText {
             get {
                 return ResourceManager.GetString("OpenPictureFileDialogText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 1 Day Color.
+        /// </summary>
+        internal static string PolygonColorTypeDay1Text {
+            get {
+                return ResourceManager.GetString("PolygonColorTypeDay1Text", resourceCulture);
             }
         }
         

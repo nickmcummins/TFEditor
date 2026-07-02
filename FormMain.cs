@@ -41,6 +41,7 @@ using System.IO;
 using System.Reflection;
 using System.Text;
 using System.Windows.Forms;
+using TFEditor.Properties;
 
 namespace TFEditor {
    public partial class FormMain : Form {
@@ -179,7 +180,7 @@ namespace TFEditor {
       public FormMain(string[] args) {
          InitializeComponent();
 
-         AreaTypName.Add(Polygone.ColorType.Day1, "1 Tagesfarbe");
+         AreaTypName.Add(Polygone.ColorType.Day1, LocalizedStrings.PolygonColorTypeDay1Text);
          AreaTypName.Add(Polygone.ColorType.BM_Day1, "Bild mit 1 Tagesfarbe");
          AreaTypName.Add(Polygone.ColorType.BM_Day2, "Bild mit 2 Tagesfarben");
          AreaTypName.Add(Polygone.ColorType.Day1_Night1, "1 Tagesfarbe, 1 Nachtfarbe");
@@ -319,7 +320,7 @@ namespace TFEditor {
 
       private void FormMain_FormClosing(object sender, FormClosingEventArgs e) {
          if (bTFChanged)
-            if (MessageBox.Show("Wollen sie das Programm beenden ohne zu speichern?", "ACHTUNG",
+            if (MessageBox.Show(LocalizedStrings.FormClosingMessageBoxText, "ACHTUNG",
                                 MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button2) == DialogResult.No)
                e.Cancel = true;
       }
@@ -336,7 +337,7 @@ namespace TFEditor {
 
       private void LoadTypefile(string file) {
          if (bTFChanged)
-            if (MessageBox.Show("Wollen sie die aktuellen Daten erst speichern?", "ACHTUNG",
+            if (MessageBox.Show(LocalizedStrings.LoadTypFileSaveCurrentMessageBoxText, "ACHTUNG",
                                 MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button1) == DialogResult.Yes)
                return;
          try {

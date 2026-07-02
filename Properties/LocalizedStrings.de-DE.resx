@@ -258,4 +258,16 @@
   <data name="TabPageAreaText" xml:space="preserve">
     <value>Flächen</value>
   </data>
+  <data name="PolygonColorTypeDay1Text" xml:space="preserve">
+    <value>1 Tagesfarbe</value>
+  </data>
+  <data name="FormClosingMessageBoxText" xml:space="preserve">
+    <value>Wollen sie das Programm beenden ohne zu speichern?</value>
+  </data>
+  <data name="LoadTypFileSaveCurrentMessageBoxText" xml:space="preserve">
+    <value>Wollen sie die aktuellen Daten erst speichern?</value>
+  </data>
+  <data name="MenuItemViewText" xml:space="preserve">
+    <value>Ansicht</value>
+  </data>
 </root>

@@ -1304,7 +1304,7 @@ namespace TFEditor {
             this.ToolStripMenuItemDetail});
          this.toolStripMenuItem1.Name = "toolStripMenuItem1";
          this.toolStripMenuItem1.Size = new System.Drawing.Size(59, 20);
-         this.toolStripMenuItem1.Text = "Ansicht";
+            this.toolStripMenuItem1.Text = LocalizedStrings.MenuItemViewText;
          // 
          // ToolStripMenuItemTile
          // 
